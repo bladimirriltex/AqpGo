@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListRestauranteActivity"
+    android:orientation="vertical">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:background="@color/negro"
+        android:foreground="?android:attr/selectableItemBackground"
+
+
+
+
+        >
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_weight="15"
+            android:background="@drawable/back_24"
+            >
+
+        </ImageButton>
+
+        <EditText
+            android:layout_weight="55"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:hint="Buscar"
+            android:textColorHint="@color/blanco"
+
+            >
+
+        </EditText>
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_weight="15"
+            android:background="@drawable/tiendas"
+            android:foreground="?android:attr/selectableItemBackground"
+            >
+
+        </ImageButton>
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_weight="15"
+            android:background="@drawable/shop_24"
+            android:foreground="?android:attr/selectableItemBackground"
+            >
+
+        </ImageButton>
+
+    </LinearLayout>
+    <!-- fin cabecera-->
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="80">
+
+        <ListView
+            android:id="@+id/lis_restaurante"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+        </ListView>
+
+    </LinearLayout>
+
+    <!-- fin Lista-->
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="12"
+        android:background="@color/fondo"
+        >
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="25"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:id="@+id/inico"
+            android:foreground="?android:attr/selectableItemBackground"
+
+
+
+            >
+
+            <ImageView
+
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+
+                android:background="@drawable/inicio"></ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="Inicio"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/blanco"
+                android:gravity="center"
+                >
+
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="25"
+            android:orientation="vertical"
+            android:id="@+id/tiendas"
+            android:gravity="center"
+            android:foreground="?android:attr/selectableItemBackground"
+
+
+            >
+
+            <ImageView
+
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+
+                android:background="@drawable/store_24"></ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tiendas"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/blanco"
+                android:gravity="center"
+                >
+
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="25"
+            android:orientation="vertical"
+            android:id="@+id/ubicacion"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:gravity="center"
+
+            >
+
+            <ImageView
+
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+
+                android:background="@drawable/ubicacion_24"></ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="Ubicacion"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/blanco"
+                android:gravity="center"
+
+                >
+
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="25"
+            android:orientation="vertical"
+            android:id="@+id/contactanos"
+            android:gravity="center"
+            android:foreground="?android:attr/selectableItemBackground"
+
+            >
+
+            <ImageView
+
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+
+                android:background="@drawable/contactanos_24"></ImageView>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Contactanos"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/blanco"
+                android:gravity="center"
+                >
+
+            </TextView>
+        </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
