@@ -13,10 +13,6 @@
         android:layout_weight="8"
         android:background="@color/negro"
         android:foreground="?android:attr/selectableItemBackground"
-
-
-
-
         >
 
         <ImageButton

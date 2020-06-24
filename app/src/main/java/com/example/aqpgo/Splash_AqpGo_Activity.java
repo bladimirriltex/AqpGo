@@ -11,7 +11,7 @@ import android.view.WindowManager;
 
 public class Splash_AqpGo_Activity extends Activity {
 
-    private final int DURACION_SPLASH = 1000;
+    private final int DURACION_SPLASH = 5000;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
